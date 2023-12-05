@@ -3,10 +3,10 @@ from cProfile import label
 from pydoc import text
 from tkinter import *
 
-from pygame import font
+#from pygame import font
 
 janela = Tk()
-janela.title("Cadastro de Pacientes - CIN")
+janela.title("xuxa")
 img = PhotoImage(file = "img/logo-cin.png")
 logo = Label(janela, image=img)
 logo.grid(column=2, row=0, padx=10, pady=10)
